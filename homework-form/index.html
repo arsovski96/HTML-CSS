@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <title>Lunch Special</title>
+    </head>
+    <body>
+        <h1 style="text-align: left; color:brown;">Restaurant lunch special</h1>
+        <h2 style="text-align: left; color:brown;">Monday-Friday, 11:00am-03:00pm, $9,95 (plus tax)</h2>
+        <h3 style="text-align: left; color:brown;">Includes: sandwich, snack and drink</h3>
+
+        <form>
+            <fieldset style="margin-right: 25cm">
+                <legend>Order information</legend>
+                <br>
+                    <label for="name"><strong>Name</strong></label>
+                    <br>
+                    <input type="text" id="name">
+                <br>
+                        <input type="radio" id="here" name="place">
+                        <label for="here">Here</label>
+                        <br>
+                        <input type="radio" id="togo" name="place">
+                        <label for="togo">To go</label>
+            </fieldset>
+
+            <fieldset style="margin-right: 25cm">
+                <legend>Sandwiches</legend>
+                <br>
+                    <label><strong>Monday</strong></label>
+                    <br>
+                        <input type="radio" name="day" id="tomato">
+                        <label for="tomato">Tomato Mozzarela</label>
+                        <br>
+                        <input type="radio" name="day" id="chicken">
+                        <label for="chicken">Chicken salad</label>
+                        <br>
+                        <br>
+                    <label><strong>Tuesday</strong></label>
+                    <br>
+                        <input type="radio" name="day" id="wrap">
+                        <label for="wrap">Greek salad wrap</label>
+                        <br>
+                        <input type="radio" name="day" id="toto">
+                        <label for="toto">Toto wrap</label>
+                        <br>
+                        <br>
+                    <label><strong>Wednesday</strong></label>
+                    <br>
+                    <input type="radio" name="day" id="hummus">
+                    <label for="hummus">Red pepper hummus</label>
+                    <br>
+                    <input type="radio" name="day" id="turkey">
+                    <label for="turkey">Roasted turkey</label>
+                        <br>
+                        <br>
+                    <label><strong>Thursday</strong></label>
+                    <br>
+                    <input type="radio" name="day" id="carrot">
+                    <label for="carrot">Carrot-Ginger hummus wrap</label>
+                    <br>
+                    <input type="radio" name="day" id="egg">
+                    <label for="egg">Egg salad</label>
+                    <br>
+                    <br>
+                    <label><strong>Friday</strong></label>
+                    <br>
+                    <input type="radio" name="day" id="special">
+                    <label for="special">Restaurant special salad</label>
+                    <br>
+                    <input type="radio" name="day" id="tuna">
+                    <label for="tuna">Tuna wrap</label>
+                    <br>
+                `   <br>
+                    <input type="checkbox" name="gluten" id="bread">
+                    <label for="bread">Gluten Free Bread (75c extra)</label>  
+            </fieldset>
+            
+            <fieldset style="margin-right: 25cm">
+                <legend>Snack</legend>
+                <label><strong>Snacks</strong></label>
+                    <br>
+                        <input type="radio" name="snack" id="apple">
+                        <label for="apple">Apple</label>
+                        <br>
+                        <input type="radio" name="snack" id="banana">
+                        <label for="banana">Banana</label>
+                        <br>
+                        <input type="radio" name="snack" id="potato">
+                        <label for="potato">Potato chips</label>
+            </fieldset>
+
+            <fieldset style="margin-right: 25cm">
+                <legend>Drink</legend>
+                <br>
+                <label for="drinks"><strong>Drinks</strong></label>
+                <select id="drinks">
+                    <option value="cf">Coffee</option>
+                    <option value="icf">Iced coffee</option>
+                    <option value="op">Organic peppermint</option>
+                    <option value="sencha-hot">Hot Sencha green tea</option>
+                    <option value="sencha-iced">Iced Sencha green tea</option>
+                    <option value="kemun-hot">Hot Kemun black tea</option>
+                    <option value="kemun-iced">Iced Kemun black tea</option>
+                </select>
+                <br>
+                <br>
+                <input type="checkbox" name="large" id="drink">
+                <label for="drink">Large drink (75c extra)</label>  
+            </fieldset>
+            <br>
+            <br>
+            <br>
+            <input type="submit" value="Place order" style="color:brown">
+            
+        </form>
+    </body>
+</html>
