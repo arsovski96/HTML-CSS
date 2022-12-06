@@ -1,0 +1,47 @@
+body {
+    background-color: gray;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    color: rgba(0, 0, 0, 0.407);
+    border: 1px solid black;
+}
+
+.header {
+    display: flex;
+    border: 5px solid #fff;
+    padding: 1em;
+    justify-content: flex-start;
+}
+
+.nav {
+    display: flex;
+    border: 5px solid #fff;
+    justify-content: flex-end;
+    font-size: 30px;
+}
+
+.menu {
+    display: flex;
+    border: 5px solid #fff;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 400px;
+    width: 300px;
+    float: left;
+}
+
+.content {
+    display: flex;
+    border: 5px solid #fff;
+    height: 400px;
+    flex-direction: column;
+    justify-content: flex-end;
+
+}
+
+.footer {
+    display: flex;
+    border: 5px solid #fff;
+    padding: 1em;
+    justify-content: flex-end;
+}
